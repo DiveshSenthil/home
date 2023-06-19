@@ -1,0 +1,332 @@
+/* styles.css */
+
+/* Reset default styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles */
+
+#top {
+  text-align: center;
+  padding: 10px;
+  background-color: #F0F0F0;
+}
+
+#top a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ddece5bc;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #4CAF50;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #0a0a0a;
+}
+
+/* Header styles */
+header {
+  position: sticky;
+  top: 0;
+  background-color: #5eadb9;
+  padding: 1rem;
+}
+
+/* Embrace section styles */
+
+header.Welcome h1 {
+  text-align: center;
+}
+
+
+.embrace {
+  background-image: url('images/bg1.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 4rem;
+  color: #fff;
+}
+
+.embrace h2 {
+  font-size: 2.5rem;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+.embrace p {
+  font-size: 1.2rem;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #5eadb9;
+  color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #267a32;
+}
+
+/* About section styles */
+.about {
+  padding: 2rem;
+  background-color: #c7f2f9;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Importance section styles */
+.importance {
+  background-color: #ea9b9b;
+  padding: 2rem;
+}
+
+.importance h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.importance p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Sustainability page styles */
+.sustainability {
+  padding: 2rem;
+  background-color: #E0FFFF;
+  color: #000000;
+}
+
+.sustainability h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #B0E0E6;
+}
+
+.sustainability p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.sustainability .info-card {
+  background-color: #95f595;
+  padding: 2rem;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.keyconcepts {
+  margin-left: 25px;
+}
+
+.pillar {
+  margin-left: 25px;
+}
+
+.why {
+  margin-left: 25px;
+}
+
+/* Table Styles */
+#styled-table {
+  width: 80%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+  background-color: #09e2e2;
+}
+
+#styled-table th,
+#styled-table td {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #333;
+  background-color: #E0FFFF;
+}
+
+#styled-table th {
+  background-color: #39b54a;
+  color: #fff;
+}
+
+#styled-table tr:nth-child(even) {
+  background-color: #E0FFFF;
+}
+
+#styled-table td:hover {
+  background-color: #E0FFFF;
+  transform: scale(1.1);
+  color: #ee0808;
+}
+
+
+/* Lifestyle page styles */
+.lifestyle {
+  padding: 2rem;
+  background-color: #E0FFFF;
+  color: #000000;
+}
+
+.lifestyle h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #B0E0E6;
+}
+
+.lifestyle p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Resource and Action page styles */
+.resource-image {
+  margin-top: -150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 30%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.resource-image:hover {
+  transform: scale(1.1);
+}
+
+.resources {
+  padding: 2rem;
+  background-color: #E0FFFF;
+  color: #000000;
+}
+
+.resources h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #B0E0E6;
+}
+
+.resources p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Initiatives page styles */
+.initiative-image {
+  margin-top: -150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 30%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.initiative-image:hover {
+  transform: scale(1.1);
+}
+
+.initiatives {
+  padding: 2rem;
+  background-color: #E0FFFF;
+  color: #000000;
+}
+
+.initiatives h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #B0E0E6;
+}
+
+.initiatives p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+/* Reference page styles */
+.reference {
+  padding: 2rem;
+  background-color: #E0FFFF;
+  color: #000000;
+}
+
+.reference h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #B0E0E6;
+}
+
+.reference p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
